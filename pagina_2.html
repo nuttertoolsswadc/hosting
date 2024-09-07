@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale">
+    <title>Programación del Arduino</title>
+    <link rel="stylesheet" href="styles2.CSS">
+</head>
+<body>
+    <h1>PROGRAMACIÓN DEL ARDUINO</h1>
+    <div class="galeria">
+        <a target="_blank" href="1_codigo_ide.png">
+            <img class="imagenovalada" src="1_codigo_ide.png" alt="">
+        </a>
+        <div class="texto">ARDUINO UNO</div>
+    </div>
+    <div class="galeria">
+        <a target="_blank" href="2_conexion_cables.jpg">
+            <img class="imagenovalada" src="2_conexion_cables.jpg" alt="">
+        </a>
+        <div class="texto">SENSOR DE HUMEDAD</div>
+    </div>
+    <div class="galeria">
+        <a target="_blank" href="3_esquema_conexion.jpg">
+            <img class="imagenovalada" src="3_esquema_conexion.jpg" alt="">
+        </a>
+        <div class="texto">BOMBA DE AGUA</div>
+    </div>
+    <div class="galeria">
+        <a target="_blank" href="4_pantalla_serial.png">
+            <img class="imagenovalada" src="4_pantalla_serial.png" alt="">
+        </a>
+        <div class="texto">RELE</div>
+    </div>
+    <div class="clearfix">
+        <h2>1. Lectura de Sensores</h2>
+        <p>El código en Arduino está diseñado para leer constantemente los valores del sensor de humedad. Esta lectura se realiza en intervalos regulares y permite monitorear el nivel de humedad en el suelo. Dependiendo del valor que registre el sensor, el sistema decidirá si necesita activar o no la bomba de agua.</p>
+        <h2>2. Activación de la Bomba de Agua</h2>
+        <p>Cuando el valor de humedad cae por debajo de un umbral predefinido, el Arduino envía una señal al módulo relé para activar la bomba de agua. Este proceso es totalmente automatizado, lo que asegura que las plantas reciban agua en el momento preciso sin intervención manual.</p>
+        <h2>3. Condiciones de Paro</h2>
+        <p>El sistema también está programado para detener el riego cuando el nivel de humedad es suficiente. Esto se hace para evitar el riego excesivo que podría dañar las plantas. De esta manera, se optimiza el uso de agua, lo que convierte este sistema en una solución eficiente y ecológica.</p>
+        <h2>4. Monitoreo en Tiempo Real</h2>
+        <p>El código del Arduino permite visualizar los datos en tiempo real a través del monitor serial. Esto es útil para verificar el estado del sistema y ajustar los parámetros si es necesario, permitiendo a los usuarios realizar un control más preciso del riego.</p>
+                
+    </div>
+</body>
+</html>
